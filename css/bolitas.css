@@ -1,0 +1,52 @@
+body {
+  background: ghostwhite;
+}
+
+#box {
+  background-color: whitesmoke;
+  width: 500px;
+  height: 500px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid darkgrey;
+}
+
+#tempo {
+  position: absolute;
+  margin: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: background-color 0.5s ease;
+}
+
+.ball {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: transform 1s ease;
+  transform: scale(1);
+  transform: scale(1);
+  cursor: pointer;
+}
+
+
+.yellow {
+  background: radial-gradient(circle at 0 0,
+      hsl(60, 100%, 50%) 25%,
+      hsl(60, 100%, 30%) 70%,
+      hsl(60, 100%, 1%));
+}
+
+.blue {
+  background: radial-gradient(circle at 0 0,
+      hsl(200, 100%, 50%) 25%,
+      hsl(200, 100%, 30%) 70%,
+      hsl(200, 100%, 1%));
+}

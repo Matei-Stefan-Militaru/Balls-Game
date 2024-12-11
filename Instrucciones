@@ -1,0 +1,6 @@
+1. bola  arriba que cambia del div box, que cambie de color con random
+
+ una funcion que compruebe que el color de la bola tempo coincida con el color de una bola que aprete(con Event Listener), 
+y despues todas las boalas del div box de ese color hacen un scale doble y despues 0, desde javascript
+
+renombrar el div rtempo como killer
